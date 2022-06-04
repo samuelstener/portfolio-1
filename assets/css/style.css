@@ -52,10 +52,35 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: white;
 }
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
+}
+
+#cover-text {
+    font-size: 150%;
+    font-family: Joan, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 850px;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 35px;
+    background-color: rgba(139, 69, 19, .7);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+    left: 27%;
+}
+
+#cover-text h2 {
+    padding-left: 220px;
 }
