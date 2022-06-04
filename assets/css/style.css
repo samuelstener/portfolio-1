@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 400;
-    color: gray;
+    color: black;
 }
 
 h1, h2 {
@@ -45,5 +45,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid black;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
 }
