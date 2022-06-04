@@ -22,6 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 20px;
 }
 
 #menu {
@@ -83,4 +84,44 @@ h1, h2 {
 
 #cover-text h2 {
     padding-left: 220px;
+}
+
+#sites-ethos {
+    height: 600px;
+}
+
+#sites-ethos h1 {
+    text-transform: none;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: yellow;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: red;
+}
+
+#center-top-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: purple;
+}
+
+#center-bottom-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
