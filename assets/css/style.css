@@ -95,17 +95,19 @@ h1, h2 {
 }
 
 #left-about {
-    padding-top: 30px;
+    padding-top: 0;
     width: 33%;
     float: left;
     background-color: blue;
+    margin-top: 193px;
 }
 
 #right-about {
-    padding-top: 30px;
+    padding-top: 0;
     width: 33%;
     float: right;
     background-color: yellow;
+    margin-top: 193px;
 }
 
 #center-about {
@@ -118,10 +120,12 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: purple;
+    margin-top: 10px;
 }
 
 #center-bottom-about {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+    margin-top: 10px;
 }
