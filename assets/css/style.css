@@ -97,35 +97,31 @@ h1, h2 {
 #left-about {
     padding-top: 0;
     width: 33%;
-    float: left;
-    background-color: blue;
-    margin-top: 193px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 #right-about {
     padding-top: 0;
     width: 33%;
-    float: right;
-    background-color: yellow;
-    margin-top: 193px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: red;
+    margin-top: 30px;
 }
 
 #center-top-about {
     width: 33%;
     margin: 0 auto;
-    background-color: purple;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #center-bottom-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
-    margin-top: 10px;
+    margin-top: 30px;
 }
