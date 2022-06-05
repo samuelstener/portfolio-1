@@ -46,7 +46,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 
 #hero-outer {
@@ -94,34 +94,40 @@ h1, h2 {
     text-transform: none;
 }
 
-#left-about {
+#stonehenge {
     padding-top: 0;
     width: 33%;
     margin: 0 auto;
     margin-top: 30px;
 }
 
-#right-about {
+#pyramid {
     padding-top: 0;
     width: 33%;
     margin: 0 auto;
     margin-top: 30px;
 }
 
-#center-about {
+#colosseum {
     width: 33%;
     margin: 0 auto;
     margin-top: 30px;
 }
 
-#center-top-about {
+#terracotta {
     width: 33%;
     margin: 0 auto;
     margin-top: 30px;
 }
 
-#center-bottom-about {
+#easter {
     width: 33%;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+#hr-line {
+    border-top: 1px solid black;
+    width: 100%;
+    margin: 5p;
 }
