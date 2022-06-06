@@ -94,6 +94,7 @@ h1, h2 {
 
 #sites-ethos h2 {
     text-transform: none;
+    font-size: x-large;
 }
 
 #stonehenge {
@@ -151,26 +152,26 @@ section > div > div > h2 {
 #pyramid-img {
     position: absolute;
     left: 0px;
-    top: 875px
+    top: 825px
     
 }
 
 #colosseum-img {
     position: absolute;
     right: 0px;
-    top: 1100px
+    top: 1000px
 }
 
 #terracotta-image {
     position: absolute;
     left: 0px;
-    top: 1290px
+    top: 1240px
 }
 
 #easter-image {
     position: absolute;
     right: 0px;
-    top: 1513px
+    top: 1413px
 }
 
 .signup-form {
