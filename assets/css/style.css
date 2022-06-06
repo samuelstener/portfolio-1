@@ -140,3 +140,28 @@ section > h1 {
 section > div > div > h2 {
     text-transform: capitalize;
 }
+
+#pyramid-img {
+    position: absolute;
+    left: 1%;
+    top: 875px
+    
+}
+
+#colosseum-img {
+    position: absolute;
+    right: 1%;
+    top: 1100px
+}
+
+#terracotta-image {
+    position: absolute;
+    left: 1%;
+    top: 1290px
+}
+
+#easter-image {
+    position: absolute;
+    right: 1%;
+    top: 1513px
+}
