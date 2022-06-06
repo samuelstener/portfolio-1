@@ -88,7 +88,8 @@ h1, h2 {
 }
 
 #sites-ethos {
-    height: 1250px;
+    height: 1233px;
+    background-image: url(../images/background-image.jpg);
 }
 
 #sites-ethos h2 {
@@ -149,36 +150,35 @@ section > div > div > h2 {
 
 #pyramid-img {
     position: absolute;
-    left: 1%;
+    left: 0px;
     top: 875px
     
 }
 
 #colosseum-img {
     position: absolute;
-    right: 1%;
+    right: 0px;
     top: 1100px
 }
 
 #terracotta-image {
     position: absolute;
-    left: 1%;
+    left: 0px;
     top: 1290px
 }
 
 #easter-image {
     position: absolute;
-    right: 1%;
+    right: 0px;
     top: 1513px
 }
 
 .signup-form {
     margin: 0 auto;
     color: #fff;
-    width: 690px;
-    height: 300px;
-    padding: 30px;
-    background: url("../images/login-image.jpg") no-repeat center center;
+    width: 500px;
+    height: 100px;
+    padding-top: 100px;
 }
 
 .signup-form > h2 {
