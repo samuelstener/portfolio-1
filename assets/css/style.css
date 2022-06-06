@@ -88,7 +88,7 @@ h1, h2 {
 }
 
 #sites-ethos {
-    height: 600px;
+    height: 1350px;
 }
 
 #sites-ethos h1 {
@@ -164,4 +164,20 @@ section > div > div > h2 {
     position: absolute;
     right: 1%;
     top: 1513px
+}
+
+.form-section {
+    background: url("");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 0 auto;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    padding: 30px;
+    
 }

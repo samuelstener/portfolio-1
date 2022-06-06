@@ -18,7 +18,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#social_media_and_contacts">Social Media and Contacts</a>
+                    <a href="#contacts">Contact</a>
                 </li>
                 <li>
                     <a href="#sign_up">Sign Up</a>
@@ -43,20 +43,22 @@
     <section id="sites-ethos">
         <h1>What is so special about these places?</h1>
         <div id="stonehenge">
-            <div>
-                <h2>Stonehenge</h2>
-                <hr id="hr-line">
-                <p>
-                    Stonehenge is a prehistoric monument on Salisbury Plain in Wiltshire, England.
-                    <hr> 
-                    It consists of a ring of huge stones which you can see above and the stones stand at a four meter length with each weighing about 25 tons!
-                    <hr>
-                    It doesn't seem very impressive until you find out that these stones were put up over 5000 years ago 
-                    and is believed to be an ancient burial ground after having found human remains dating back to 3000 BC.
-                    <hr>
-                    Scientists cannot figure out how Stonehenge was built so long ago without modern technology. 
-                </p>
-            </div>
+            <a id="main_text">
+                <div>
+                    <h2>Stonehenge</h2>
+                    <hr id="hr-line">
+                    <p>
+                        Stonehenge is a prehistoric monument on Salisbury Plain in Wiltshire, England.
+                        <hr> 
+                        It consists of a ring of huge stones which you can see above and the stones stand at a four meter length with each weighing about 25 tons!
+                        <hr>
+                        It doesn't seem very impressive until you find out that these stones were put up over 5000 years ago 
+                        and is believed to be an ancient burial ground after having found human remains dating back to 3000 BC.
+                        <hr>
+                        Scientists cannot figure out how Stonehenge was built so long ago without modern technology. 
+                    </p>
+                </div>
+            </a>
         </div>
         <div id="pyramid">
             <div>
@@ -131,17 +133,22 @@
             </div>
         </div>
     </section>
-    <a id="main_text">
-    <section>
-        travel locations and times
-    </section>
-    </a>
+    
+    
     <a id="sign_up">
-    <section>
-        sign up
+    <section id="form-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <h2>Sign up with your email to get notified about future tours!</h2>
+
+            <label for="email" id="email">Email Address</label>
+            <input type="email" name="email_address" id="email" required>
+
+            <input type="submit" value="Explore History!">
+        </form>
     </section>
-    </a>
-    <a id="social_media_and_contacts">
+    </a>   
+
+    <a id="contacts">
     <footer>
         social media and contact information
     </footer>
