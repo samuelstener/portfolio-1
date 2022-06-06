@@ -73,8 +73,8 @@ h1, h2 {
     letter-spacing: 2px;
     width: 850px;
     height: 150px;
-    padding-top: 10px;
-    padding-left: 35px;
+    padding-top: 20px;
+    padding-left: 30px;
     background-color: rgba(139, 69, 19, .7);
     bottom: 30px;
     right: 150px;
@@ -88,10 +88,10 @@ h1, h2 {
 }
 
 #sites-ethos {
-    height: 1350px;
+    height: 1250px;
 }
 
-#sites-ethos h1 {
+#sites-ethos h2 {
     text-transform: none;
 }
 
@@ -127,13 +127,19 @@ h1, h2 {
     margin-top: 30px;
 }
 
-#hr-line {
+div > div > hr {
     border-top: 1px solid black;
     width: 100%;
     margin: 5p;
 }
 
-section > h1 {
+div > a > div > hr {
+    border-top: 1px solid black;
+    width: 100%;
+    margin: 5p;
+}
+
+section > h2 {
     padding-left: 39%;
 }
 
@@ -166,18 +172,15 @@ section > div > div > h2 {
     top: 1513px
 }
 
-.form-section {
-    background: url("");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
 .signup-form {
     margin: 0 auto;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    width: 690px;
+    height: 300px;
     padding: 30px;
-    
+    background: url("../images/login-image.jpg") no-repeat center center;
+}
+
+.signup-form > h2 {
+    color: white;
 }
