@@ -9,14 +9,15 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 400;
-    color: black;
+    color: white;
+    background-color: black;
 }
 
 h1, h2 {
     font-family: Joan, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: white;
 }
 
 #logo {
@@ -46,7 +47,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 #hero-outer {
@@ -90,11 +91,13 @@ h1, h2 {
 #sites-ethos {
     height: 1233px;
     background-image: url(../images/background-image.jpg);
+    color: black;
 }
 
 #sites-ethos h2 {
     text-transform: none;
     font-size: x-large;
+    color: black;
 }
 
 #stonehenge {
@@ -171,6 +174,7 @@ section > div > div > h2 {
 .signup-form {
     margin: 0 auto;
     color: black;
+    font-size: large;
     width: 550px;
     padding-top: 100px;
     padding-left: 10px;
@@ -203,4 +207,19 @@ section > div > div > h2 {
     color: black;
     border-color: black;
     background-color: white;
+}
+
+footer {
+    height: 60px;
+    background-color: black;
+}
+
+footer > ul > li {
+    text-align: center;
+}
+
+.social-media {
+    color: white;
+    font-size: 50px;
+    margin: 15%;
 }
