@@ -208,6 +208,10 @@ section > div > div > h2 {
     background-color: white;
 }
 
+.email-field {
+    margin-left: 10px;
+}
+
 footer {
     height: 60px;
     background-color: black;
