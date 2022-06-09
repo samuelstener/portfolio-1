@@ -118,15 +118,10 @@ h1, h2 {
     width: 100%;
 }
 
-section > div > div > h2 {
-    text-transform: capitalize;
-}
-
 #pyramid-image {
     position: absolute;
     left: 0px;
     top: 825px
-    
 }
 
 #colosseum-image {
